@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url("slike/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 80vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 4rem;
+	font-family: "Ubuntu", sans-serif;
+	text-shadow: 4px 4px black;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin: 20px;
+	flex-wrap: wrap;
+}
+
+.flex {
+	display: flex;
+}
+
+.product {
+	width: 350px;
+	background-color: #f8f8f9;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.product img {
+	width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.productFooter {
+	color: rgb(110, 33, 33);
+	justify-content: space-between;
+	padding: 20px 10px 5px 10px;
+}
+
+.productTitle {
+	font-size: 1.8rem;
+	padding: 10px;
+}
+
+.productDescription {
+	font-size: 1.1rem;
+	padding: 0px 10px;
+	color: #66666633;
+}
+
+.productTags {
+	gap: 5px;
+	padding: 0px 10px;
+}
+
+.card {
+	font-size: 0.8rem;
+	background-color: rgba(255, 255, 255, 0.836);
+	padding: 10px;
+}
+
+.footer {
+	display: flex;
+	background-color: rgba(169, 169, 169, 0.712);
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
