@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.w10 {
+	width: 10%;
+	background-color: rgb(23, 121, 121);
+}
+.w45 {
+	width: 45%;
+}
+.flex {
+	display: flex;
+}
+.vh100 {
+	height: 100vh;
+}
+.slika {
+	height: 100%;
+	width: 100%;
+}
+.rotatedtext {
+	transform: rotate(90deg);
+	margin-top: 200px;
+	font-size: 2.5rem;
+	white-space: nowrap;
+	transition: color 0.5s ease-in-out;
+}
+.rotatedtext:hover {
+	color: snow;
+	transition: color 0.5s ease-in-out;
+	cursor: pointer;
+}
+.rightcontent {
+	padding: 40px;
+}
+.rightcontent h1 {
+	font-size: 2rem;
+}
+.rightcontent p {
+	font-size: 1.2rem;
+}
+.linija {
+	height: 7px;
+	background-color: black;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	transition: width 1s ease-in-out;
+}
+.linija:hover {
+	width: 50px;
+	transition: width 1s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+	.flex {
+		flex-direction: column;
+	}
+	.w10,
+	.w45 {
+		width: 100%;
+	}
+	.rotatedtext {
+		transform: rotate(0deg);
+		margin-top: 0;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.rightcontent {
+		padding: 20px;
+	}
+}
