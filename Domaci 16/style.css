@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.col-5 {
+	height: 500px;
+}
+.col-10 {
+  height: 500px;
+}
